@@ -1,5 +1,6 @@
 package aula06;
 
+//CONTROLLER/INTERFACE
 public interface Controlador {
     public abstract void ligar();
     public abstract void desligar();

@@ -1,5 +1,5 @@
 package aula06;
-
+//OBJETO COM ATRIBUTOS E MÉTODOS GET E SET E MÉTODOS DA CONTROLER
 public class ControleRemoto implements Controlador {
     // ATRIBUTOS
     private int volume;
