@@ -5,41 +5,11 @@ import java.util.Random;
 public class Luta{
     private Lutador desafiado;
     private Lutador desafiante;
-    private int rounds;
     private boolean aprovada;
 
     // MÉTODOS SET E GET
-    private void setDesafiado(Lutador dd) {
-        desafiado = dd;
-    }
 
-    private Lutador getDesafiado() {
-        return desafiado;
-    }
-
-    private void setDesafiante(Lutador ds) {
-        desafiante = ds;
-    }
-
-    private Lutador getDesafiante() {
-        return desafiante;
-    }
-
-    private void setRounds(int r) {
-        rounds = r;
-    }
-
-    private int getRounds() {
-        return rounds;
-    }
-
-    private void setAprovada(boolean apv) {
-        aprovada = apv;
-    }
-
-    private boolean getAprovada() {
-        return aprovada;
-    }
+    
 
     // MÉTODOS ESPECIAIS
     public void marcarLuta(Lutador l1, Lutador l2) {
