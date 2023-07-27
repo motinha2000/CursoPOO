@@ -1,4 +1,4 @@
-package aula10;
+package aula10e11;
 
 public class Professor extends Pessoa{
     private String especialidade;

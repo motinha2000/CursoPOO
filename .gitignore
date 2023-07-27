@@ -1,3 +1,4 @@
 # IGNORANDO ARQUIVOS BIN
 *.class
 bin
+bin/
