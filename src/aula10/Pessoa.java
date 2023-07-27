@@ -1,6 +1,6 @@
 package aula10;
 
-class Pessoa {
+public abstract class Pessoa {
     private String nome;
     private int idade;
     private String sexo;    
@@ -34,7 +34,7 @@ class Pessoa {
     }
 
     public String toString() {
-        return "Pessoa [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + "]";
+        return "DADOS: [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + "]";
     }
     
 }
